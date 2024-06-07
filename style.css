@@ -281,7 +281,7 @@ span{
 
 /* -- EXPERIENCE -- */
 .heading{
-    font-size: 8rem;
+    font-size: 6rem;
     text-align: center;
     margin: 5rem;
 }
@@ -469,7 +469,7 @@ section.portfolio .flex{
     font-weight: 600px;
     color: white;
     opacity: 0;
-    transition: 5s;
+    transition: 8s;
 }
 .overlay:hover{
     opacity: 1;
@@ -578,6 +578,7 @@ form .btn-enviar input{
     background-color: var(--main-color);
     color: var(--bg-color);
     cursor: pointer;
+    transition: 2s;
 }
 form .btn-enviar input:hover{
     color: white;
@@ -688,6 +689,7 @@ form .btn-enviar input:hover{
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
     }
+
 }
 @media(max-width:991px){
     header{
@@ -721,6 +723,12 @@ form .btn-enviar input:hover{
     }
     .footer{
         padding: 2rem 3%;
+    }
+    section.portfolio .flex{
+        gap: 20px;
+    }
+    .img-port{
+        height: 380px;
     }
 }
 @media(max-width: 895px){
@@ -769,6 +777,31 @@ form .btn-enviar input:hover{
     .services-container{
         grid-template-columns: repeat(1,1fr);
     }
-    
+    section.portfolio .flex{
+        gap: 25px;
+    }
+    .img-port{
+        height: 380px;
+    }
+}
+@media (max-width: 574px){
+    section.portfolio .flex{
+        gap: 25px;
+    }
+    .img-port{
+        height: 250px;
+    }
+
+}
+@media (max-width: 430px){
+    section.portfolio .flex{
+        flex-direction: column;
+    }
+    .img-port{
+        height: 250px;
+    }
+    .overlay{
+        transition: 12s;
+    }
 
 }
