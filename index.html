@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" type="image/jpg" href="/img/favicon.ico"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Pro Web Structure</title>
 </head>
@@ -13,7 +14,7 @@
 
     <!-- HEADER -->
     <header class="header">
-        <a href="#home" class="logo">Pro <span>Web Structure</span></a>
+        <a href="#home" class="logo">Professional <span>Web Structure</span></a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
@@ -28,10 +29,10 @@
 
     <section class="home" id="home">
         <div class="home-content">
-            <h1>Olá, isto é <span>Pro Web Struct</span></h1>
+            <h1>Olá, isto é <span>Pro. Web Structure</span></h1>
             <h3 class="text-animation">Eu sou <span></span></h3>
             <p>O avanço da técnologia se tornou benéfico e imprecendivel para qualquer negócio.
-            Quando precisamos de alguma informação, o primeiro passo é busca-la na internet. Por isso, utilizar alguma tecnologia nos dias atuais é uma das estratégias mais utilizadas para se obter maior visibilidade e credibilidade. A PRO.WS tem as ferramentas necessárias para impulsionar o seu negócio. Conte connosco!
+            Quando precisamos de alguma informação, o primeiro passo é busca-la na internet. Por isso, utilizar alguma tecnologia nos dias atuais é uma das estratégias mais utilizadas para se obter maior visibilidade e credibilidade. A PROWS tem as ferramentas necessárias para impulsionar o seu negócio. Conte connosco!
             </p>
 
             <div class="social-icons">
@@ -47,7 +48,10 @@
             </div>
         </div>
             <div class="home-img">
-                <img src="/img/teste2.png" alt="">
+                <img src="/img/teste2.png" 
+                data-aos="flip-left" 
+                data-aos-easing="ease-out-cubic" 
+                data-aos-duration="2000" alt="">
             </div>
     </section>
 
@@ -61,7 +65,7 @@
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">Nossa história</div>
                     <div class="timeline-content">
-                        <p>A PRO.WS foi fundada por programadores que atuam no mercado na área de desenvolvimento de softwares, como frontend backend. A necessidade juntamente com a oportunidade de desenvolver soluções criativas no nosso contexto geografico foi a nossa motivação.
+                        <p>A PROWS foi fundada por programadores que atuam no mercado na área de desenvolvimento de softwares, como frontend backend. A necessidade juntamente com a oportunidade de desenvolver soluções criativas no nosso contexto geografico foi a nossa motivação.
                         
                         </p>
                     </div>
@@ -124,7 +128,7 @@
 
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Sistema PWS</h4>
+                    <h4>Sistema PROWS</h4>
                     <p>A PWS esta desenvolvendo uma plataforma para gerenciar o seu negócio; Sistema de agendamento, abertura e controle de ordens de serviços, gestão de clientes, gestão financeira, alertas por SMS's, e muito mais. <br/>
                     Aguardem!                       
                     </p>
@@ -212,7 +216,7 @@
                 <textarea name="Mensagem" placeholder="Sua Mensagem:" required></textarea>
                 <input type="hidden" name="_next" value="" />
                 <input type="hidden" name="_captcha" value="false" />
-
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
                 <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
             </form>
         </div>
@@ -273,6 +277,10 @@
         </p>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
