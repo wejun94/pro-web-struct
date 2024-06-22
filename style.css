@@ -797,13 +797,227 @@ form .btn-enviar input:hover{
     section.portfolio .flex{
         flex-direction: column;
     }
-    .img-port{
-        height: 250px;
+    .home .home-content h1{
+        font-size: 5rem;
     }
-    .overlay{
-        transition: 12s;
+    .home .home-content h3{
+        font-size: 2rem;
     }
     .home-img img{
         width: 65vw;
+    }
+    .img-port{
+        height: 250px;
+    }
+    .education h2{
+        margin-top: -25px;
+        font-size: 4rem;
+    }
+    .education p{
+        font-size: 1.5rem;
+    }
+    .services h2{
+        font-size: 4rem;
+    }
+    .service-info h4{
+        margin-top: -25px;
+        font-size: 20px;
+    }
+    .service-info p{
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+    .portfolio h2{
+        font-size: 4rem;
+    }
+    .testimonials .testimonials-box h2{
+        font-size: 40px;
+    }
+    .testimonials .testimonial-item h2{
+        font-size: 20px;
+    }
+    .testimonial-item{
+        width: 75vw;
+    }
+    .contact .interface .heading{
+        font-size: 40px;
+    }
+    .overlay{
+        border: 0.5px solid white;
+        transition: 12s;
+    }
+    .interface {
+        margin-left: 2.5rem;
+    }
+}
+
+@media (max-width: 414px){
+    section.portfolio .flex{
+        flex-direction: column;
+    }
+    .home .home-content h1{
+        font-size: 5rem;
+    }
+    .home .home-content h3{
+        font-size: 2rem;
+    }
+    .home-img img{
+        width: 65vw;
+    }
+    .img-port{
+        height: 250px;
+    }
+    .education h2{
+        margin-top: -25px;
+        font-size: 4rem;
+    }
+    .services h2{
+        font-size: 4rem;
+    }
+    .service-info h4{
+        margin-top: -25px;
+        font-size: 20px;
+    }
+    .service-info p{
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .portfolio h2{
+        font-size: 4rem;
+    }
+    .testimonials .testimonials-box h2{
+        font-size: 40px;
+    }
+    .testimonials .testimonial-item h2{
+        font-size: 20px;
+    }
+    .testimonial-item{
+        width: 75vw;
+    }
+    .contact .interface .heading{
+        font-size: 40px;
+    }
+    .overlay{
+        border: 0.5px solid white;
+        transition: 12s;
+    }
+    .interface {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 390px){
+    section.portfolio .flex{
+        flex-direction: column;
+    }
+    .home .home-content h1{
+        font-size: 5rem;
+    }
+    .home .home-content h3{
+        font-size: 2rem;
+    }
+    .home-img img{
+        width: 65vw;
+    }
+    .img-port{
+        height: 250px;
+    }
+    .education h2{
+        margin-top: -25px;
+        font-size: 4rem;
+    }
+    .education p{
+        font-size: 1.5rem;
+    }
+    .services h2{
+        font-size: 4rem;
+    }
+    .service-info h4{
+        margin-top: -25px;
+        font-size: 20px;
+    }
+    .service-info p{
+        margin-top: 10px;
+        font-size: 1.4rem;
+    }
+    .portfolio h2{
+        font-size: 4rem;
+    }
+    .testimonials .testimonials-box h2{
+        font-size: 40px;
+    }
+    .testimonials .testimonial-item h2{
+        font-size: 20px;
+    }
+    .testimonial-item{
+        width: 75vw;
+    }
+    .contact .interface .heading{
+        font-size: 40px;
+    }
+    .overlay{
+        border: 0.5px solid white;
+        transition: 12s;
+    }
+    .interface {
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 375px){
+    section.portfolio .flex{
+        flex-direction: column;
+    }
+    .home .home-content h1{
+        font-size: 5rem;
+    }
+    .home .home-content h3{
+        font-size: 2rem;
+    }
+    .home-img img{
+        width: 65vw;
+    }
+    .img-port{
+        height: 250px;
+    }
+    .education h2{
+        margin-top: -25px;
+        font-size: 4rem;
+    }
+    .education p{
+        font-size: 1.5rem;
+    }
+    .services h2{
+        font-size: 4rem;
+    }
+    .service-info h4{
+        margin-top: -25px;
+        font-size: 20px;
+    }
+    .service-info p{
+        margin-top: 10px;
+        font-size: 1.3rem;
+    }
+    .portfolio h2{
+        font-size: 4rem;
+    }
+    .testimonials .testimonials-box h2{
+        font-size: 40px;
+    }
+    .testimonials .testimonial-item h2{
+        font-size: 20px;
+    }
+    .testimonial-item{
+        width: 75vw;
+    }
+    .contact .interface .heading{
+        font-size: 40px;
+    }
+    .overlay{
+        border: 0.5px solid white;
+        transition: 12s;
+    }
+    .interface {
+        margin-left: -1rem;
     }
 }
